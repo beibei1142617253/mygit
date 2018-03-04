@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+
+	<common>
+		<首页>http://www.huicewang.com/ecshop/</首页>
+	</common>
+	
+	<case03>
+		<用户名>bulanni</用户名>
+		<密码>123456</密码>
+		<手机类型>3</手机类型>
+		<手机品牌>三星</手机品牌>
+	</case03>
+	
+</data>

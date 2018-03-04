@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HuiCe" parallel="tests" thread-count="2"> <!--注释：parallel是指以什么维度并行测试-->
+
+	<test name="火狐" preserve-order="true"> <!--注释：preserve-order="true"是指按test节点内定好的用例的顺序执行-->
+		<parameter name="desc" value="火狐"/>
+		<classes>
+			<class name="day4.Case1">
+				<methods>
+					<include name="c01_test02"/> <!--注释：表示只执行这个方法-->
+				</methods>
+			</class>
+			<class name="day4.Case2">
+				<methods>
+					<exclude name="c02_test02"/> <!--注释：表示除了这个方法不执行，其他都执行-->
+				</methods>
+			</class>
+			<class name="day4.Case3"/>
+		</classes>
+	</test>
+		
+	<test name="谷歌" preserve-order="true">
+		<parameter name="desc" value="谷歌"/>
+		<classes>
+			<class name="day4.Case1"/>
+			<class name="day4.Case2"/>
+			<class name="day4.Case3"/>
+		</classes>
+	</test>
+	
+</suite>

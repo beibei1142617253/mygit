@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ECSHOP-线上功能监控" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="listener.ExecutionListener" />
+		<listener class-name="listener.Reporter" />
+	</listeners>
+
+	<test name="搜索诺基亚、投诉、下订单、精品推荐区" preserve-order="true">
+		<parameter name="browserType" value="firefox" />
+		<classes>
+			<class name="cases.Case1" />
+			<class name="cases.Case2" />
+			<class name="cases.Case3" />
+			<class name="cases.Case4" />
+			<class name="cases.Case5" />
+			<class name="cases.Case6" />
+		</classes>
+	</test>
+
+</suite>

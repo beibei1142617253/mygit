@@ -1,0 +1,4 @@
+2018-02-28 18:06:47,692 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:44) Case1：未搜索到产品：华为
+2018-02-28 18:06:57,243 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:44) Case1：未搜索到产品：oppo
+2018-02-28 18:27:15,294 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:44) Case1：未搜索到产品：联想
+2018-02-28 18:27:25,830 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:44) Case1：未搜索到产品：锤子

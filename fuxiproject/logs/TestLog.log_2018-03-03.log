@@ -1,0 +1,40 @@
+2018-03-03 00:52:27,558 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:59) Sousuo -> set retry
+2018-03-03 00:52:27,648 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:59) case02 -> set retry
+2018-03-03 00:52:27,648 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:59) case03 -> set retry
+2018-03-03 00:52:27,648 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:59) case04 -> set retry
+2018-03-03 00:52:27,648 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:59) case5 -> set retry
+2018-03-03 00:52:27,648 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:59) case06 -> set retry
+2018-03-03 00:52:34,164 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:87) TestStart!
+2018-03-03 00:52:37,677 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:87) TestStart!
+2018-03-03 00:52:39,235 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-03 00:52:39,311 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:87) TestStart!
+2018-03-03 00:52:40,796 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-03 00:52:40,871 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:87) TestStart!
+2018-03-03 00:52:42,433 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-03 00:52:42,505 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:87) TestStart!
+2018-03-03 00:52:44,012 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-03 00:52:44,109 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:87) TestStart!
+2018-03-03 00:52:45,413 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:87) TestStart!
+2018-03-03 00:52:46,788 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-03 00:52:46,840 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:87) TestStart!
+2018-03-03 00:52:53,194 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:87) TestStart!
+2018-03-03 01:44:07,698 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:60) Sousuo -> set retry
+2018-03-03 01:44:07,708 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:60) case02 -> set retry
+2018-03-03 01:44:07,708 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:60) case03 -> set retry
+2018-03-03 01:44:07,708 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:60) case04 -> set retry
+2018-03-03 01:44:07,708 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:60) case5 -> set retry
+2018-03-03 01:44:07,708 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:60) case06 -> set retry
+2018-03-03 01:44:13,863 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:89) TestStart!
+2018-03-03 01:44:17,187 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:89) TestStart!
+2018-03-03 01:44:18,823 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:52) Case1：未搜索到产品：联想
+2018-03-03 01:44:18,904 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:89) TestStart!
+2018-03-03 01:44:20,620 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:52) Case1：未搜索到产品：联想
+2018-03-03 01:44:20,679 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:89) TestStart!
+2018-03-03 01:44:22,169 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:52) Case1：未搜索到产品：联想
+2018-03-03 01:44:22,249 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:89) TestStart!
+2018-03-03 01:44:23,745 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:52) Case1：未搜索到产品：联想
+2018-03-03 01:44:23,804 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:89) TestStart!
+2018-03-03 01:44:25,094 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:89) TestStart!
+2018-03-03 01:44:26,508 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:52) Case1：未搜索到产品：锤子
+2018-03-03 01:44:26,586 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:89) TestStart!
+2018-03-03 01:44:33,015 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:89) TestStart!

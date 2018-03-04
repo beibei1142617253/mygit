@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 页面对象配置文档
+object所有子节点中：一级节点名称为页面简称；
+                                      二级节点名称为页面具体对象简称（type为对象识别属性，value为识别属性的具体值）。 -->
+
+<对象>
+
+	<首页><!-- 一级节点 -->
+		<搜索分类> <type>id</type>       <value>category</value>   </搜索分类>
+		<关键词>   <type>id</type>       <value>keyword</value>    </关键词>
+		<搜索>     <type>name</type>     <value>imageField</value> </搜索>
+		<留言板>   <type>linkText</type> <value>留言板</value>      </留言板>
+		<退出登录> <type>xpath</type>    <value>//a[@href='user.php?act=logout']</value> </退出登录>
+		<精品推荐-tab签> <type>xpath</type> <value>//div[@id='itemBest']/h2/a</value> </精品推荐-tab签>
+		<精品推荐-产品价格> <type>xpath</type> <value>//div[@id='show_best_area']/div[@class='goodsItem']/font</value> </精品推荐-产品价格>
+		<精品推荐-产品图片> <type>xpath</type> <value>//div[@id='show_best_area']/div[@class='goodsItem']/a/img</value> </精品推荐-产品图片>
+	</首页>
+	
+	<登录页>
+		<kfdd用户名>  <type>id</type> <value>txtUserEmail</value> </kfdd用户名>
+		<kfdd密码>    <type>id</type> <value>psText</value> </kfdd密码>
+		<kfdd登录>    <type>id</type> <value>btnLogin</value> </kfdd登录>
+		
+		<用户名>   <type>name</type> <value>username</value> </用户名>
+		<密码>     <type>name</type> <value>password</value> </密码>
+		<立即登录> <type>name</type> <value>submit</value> </立即登录>
+	</登录页>
+	
+	<下订单>
+		<kfdd订单管理>     <type>xpath</type>   <value>//h2[contains(text(),'订单管理')]</value> </kfdd订单管理>
+		<kfdd订单新增>     <type>xpath</type>   <value>//a[@href='/Order/OrderAdd']</value>     </kfdd订单新增>
+		<kfdd官网按钮>     <type>xpath</type>   <value>//input[@title='官网']</value>     </kfdd官网按钮>
+	
+		<搜索到的商品> <type>xpath</type> <value>//div[@class='goodsItem']</value> </搜索到的商品>
+		<弹窗的购买按钮> <type>xpath</type> <value>//div[@id='speDiv']/center/a[contains(text(),'购买')]</value> </弹窗的购买按钮>
+		<结算中心按钮> <type>xpath</type> <value>//a[@href='flow.php?step=checkout']</value> </结算中心按钮>
+		<配送方式> <type>name</type> <value>shipping</value> </配送方式>
+		<支付方式> <type>name</type> <value>payment</value> </支付方式>
+		<提交订单按钮> <type>xpath</type> <value>//input[@type='image']</value> </提交订单按钮>
+		<下成功的订单号> <type>xpath</type> <value>//div[@class='flowBox']/h6/font</value> </下成功的订单号>
+	</下订单>
+	
+	<订单页>
+		<订单> <type>xpath</type> <value>//div[@class='userCenterBox boxCenterList clearfix']/table//tr</value> </订单>
+	</订单页>
+	
+	<留言板页面>
+		<电子邮件地址> <type>name</type> <value>user_email</value> </电子邮件地址>
+		<留言类型-投诉> <type>xpath</type> <value>//input[@name='msg_type' and @value='1']</value> </留言类型-投诉>
+		<主题> <type>name</type> <value>msg_title</value> </主题>
+		<留言内容> <type>name</type> <value>msg_content</value> </留言内容>
+		<我要留言> <type>className</type> <value>bnt_blue_1</value> </我要留言>
+		<成功提示> <type>xpath</type> <value>//div[@class='boxCenterList RelaArticle']//p</value> </成功提示>
+	</留言板页面>
+	
+</对象>

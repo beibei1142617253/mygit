@@ -1,0 +1,536 @@
+2018-03-04 01:18:17,397 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 01:18:17,417 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 01:18:17,417 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 01:18:17,417 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 01:18:17,417 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 01:18:17,417 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 01:18:22,072 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:18:25,266 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:18:26,895 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1��δ��������Ʒ������
+2018-03-04 01:18:26,940 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:18:28,364 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1��δ��������Ʒ������
+2018-03-04 01:18:28,411 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:18:30,262 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1��δ��������Ʒ������
+2018-03-04 01:18:30,316 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:18:32,055 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1��δ��������Ʒ������
+2018-03-04 01:18:32,091 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:18:33,927 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:18:35,993 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1��δ��������Ʒ������
+2018-03-04 01:18:36,034 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:18:45,948 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:19:20,345 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:19:59,718 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:20:18,677 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:20:37,636 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:20:48,730 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:21:00,364 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) ����ϵͳ���ԣ�mail.smtp.host = smtp.163.com
+2018-03-04 01:21:00,364 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) ׼����ȡ�ʼ��Ự����
+2018-03-04 01:21:00,384 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) ׼������MIME�ʼ�����
+2018-03-04 01:21:00,424 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) ����smtp������֤��mail.smtp.auth = true
+2018-03-04 01:21:00,424 INFO  utils.EmailSender.setSubject(EmailSender.java:178) �����ʼ����⣡
+2018-03-04 01:21:00,424 INFO  utils.EmailSender.setFrom(EmailSender.java:297) ���÷����ˣ�
+2018-03-04 01:21:00,524 INFO  utils.EmailSender.sendOut(EmailSender.java:233) ���ڷ����ʼ�....
+2018-03-04 01:45:04,948 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 01:45:04,948 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 01:45:04,948 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 01:45:04,948 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 01:45:04,948 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 01:45:04,948 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 01:45:09,369 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:45:12,344 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:45:13,945 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 01:45:13,989 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:45:16,511 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 01:45:16,555 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:45:18,223 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 01:45:18,274 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:45:19,683 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 01:45:19,724 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:45:21,061 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:45:22,586 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 01:45:22,621 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:45:30,526 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:46:04,657 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:46:41,613 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:46:58,969 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:47:18,782 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:47:30,260 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 01:47:40,831 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) 设置系统属性：mail.smtp.host = smtp.163.com
+2018-03-04 01:47:40,831 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) 准备获取邮件会话对象！
+2018-03-04 01:47:40,861 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) 准备创建MIME邮件对象！
+2018-03-04 01:47:40,901 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) 设置smtp身份认证：mail.smtp.auth = true
+2018-03-04 01:47:40,901 INFO  utils.EmailSender.setSubject(EmailSender.java:178) 设置邮件主题！
+2018-03-04 01:47:40,901 INFO  utils.EmailSender.setFrom(EmailSender.java:297) 设置发信人！
+2018-03-04 01:47:40,911 INFO  utils.EmailSender.sendOut(EmailSender.java:233) 正在发送邮件....
+2018-03-04 02:27:06,626 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 02:27:06,636 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 02:27:06,636 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 02:27:06,636 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 02:27:06,636 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 02:27:06,636 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 02:27:11,718 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:27:14,359 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:27:16,395 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 02:27:16,440 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:27:17,906 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 02:27:17,950 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:27:19,652 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 02:27:19,701 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:27:21,149 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 02:27:21,192 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:27:22,439 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:27:23,767 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 02:27:23,804 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:27:30,466 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:28:04,752 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:28:07,002 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) 设置系统属性：mail.smtp.host = smtp.163.com
+2018-03-04 02:28:07,002 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) 准备获取邮件会话对象！
+2018-03-04 02:28:07,022 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) 准备创建MIME邮件对象！
+2018-03-04 02:28:07,062 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) 设置smtp身份认证：mail.smtp.auth = true
+2018-03-04 02:28:07,072 INFO  utils.EmailSender.setSubject(EmailSender.java:178) 设置邮件主题！
+2018-03-04 02:28:07,072 INFO  utils.EmailSender.setFrom(EmailSender.java:297) 设置发信人！
+2018-03-04 02:28:07,082 INFO  utils.EmailSender.sendOut(EmailSender.java:233) 正在发送邮件....
+2018-03-04 02:49:33,600 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 02:49:33,610 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 02:49:33,610 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 02:49:33,610 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 02:49:33,610 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 02:49:33,610 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 02:49:38,100 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:49:41,135 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:49:42,679 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 02:49:42,729 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:49:44,229 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 02:49:44,272 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:49:45,802 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 02:49:45,851 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:49:47,366 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 02:49:47,403 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:49:48,767 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:49:50,111 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 02:49:50,157 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:49:55,513 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:50:29,486 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:51:06,188 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:51:22,691 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:51:43,526 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:51:57,679 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 02:52:07,916 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) 设置系统属性：mail.smtp.host = smtp.163.com
+2018-03-04 02:52:07,916 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) 准备获取邮件会话对象！
+2018-03-04 02:52:07,936 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) 准备创建MIME邮件对象！
+2018-03-04 02:52:07,966 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) 设置smtp身份认证：mail.smtp.auth = true
+2018-03-04 02:52:07,966 INFO  utils.EmailSender.setSubject(EmailSender.java:178) 设置邮件主题！
+2018-03-04 02:52:07,976 INFO  utils.EmailSender.setFrom(EmailSender.java:297) 设置发信人！
+2018-03-04 02:52:07,986 INFO  utils.EmailSender.sendOut(EmailSender.java:233) 正在发送邮件....
+2018-03-04 03:09:10,738 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 03:09:10,798 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 03:09:10,798 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 03:09:10,798 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 03:09:10,838 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 03:09:10,838 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 03:09:15,591 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:09:18,445 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:09:19,858 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:09:19,908 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:09:21,382 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:09:21,434 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:09:23,010 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:09:23,062 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:09:24,552 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:09:24,591 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:09:26,090 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:09:27,434 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 03:09:27,468 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:09:33,379 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:10:07,393 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:10:44,356 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:11:00,336 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:11:19,087 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:11:31,506 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:11:42,179 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) 设置系统属性：mail.smtp.host = smtp.163.com
+2018-03-04 03:11:42,179 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) 准备获取邮件会话对象！
+2018-03-04 03:11:42,209 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) 准备创建MIME邮件对象！
+2018-03-04 03:11:42,259 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) 设置smtp身份认证：mail.smtp.auth = true
+2018-03-04 03:11:42,259 INFO  utils.EmailSender.setSubject(EmailSender.java:178) 设置邮件主题！
+2018-03-04 03:11:42,269 INFO  utils.EmailSender.setFrom(EmailSender.java:297) 设置发信人！
+2018-03-04 03:11:42,279 INFO  utils.EmailSender.sendOut(EmailSender.java:233) 正在发送邮件....
+2018-03-04 03:28:46,937 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 03:28:46,937 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 03:28:46,937 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 03:28:46,937 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 03:28:46,937 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 03:28:46,937 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 03:28:51,839 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:28:54,562 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:28:55,904 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:28:55,949 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:28:57,373 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:28:57,415 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:28:58,942 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:28:58,995 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:29:00,537 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:29:00,586 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:29:01,877 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:29:03,242 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 03:29:03,281 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:29:11,332 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:29:45,338 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:30:22,098 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:30:38,403 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:30:56,656 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:31:07,543 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:31:17,893 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) 设置系统属性：mail.smtp.host = smtp.163.com
+2018-03-04 03:31:17,893 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) 准备获取邮件会话对象！
+2018-03-04 03:31:17,913 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) 准备创建MIME邮件对象！
+2018-03-04 03:31:17,943 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) 设置smtp身份认证：mail.smtp.auth = true
+2018-03-04 03:31:17,943 INFO  utils.EmailSender.setSubject(EmailSender.java:178) 设置邮件主题！
+2018-03-04 03:31:17,953 INFO  utils.EmailSender.setFrom(EmailSender.java:297) 设置发信人！
+2018-03-04 03:31:17,963 INFO  utils.EmailSender.sendOut(EmailSender.java:233) 正在发送邮件....
+2018-03-04 03:36:56,316 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 03:36:56,326 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 03:36:56,326 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 03:36:56,326 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 03:36:56,326 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 03:36:56,326 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 03:37:00,803 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:37:03,595 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:37:05,571 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:37:05,617 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:37:07,019 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:37:07,071 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:37:08,628 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:37:08,679 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:37:10,314 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:37:10,352 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:37:11,738 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:37:13,307 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 03:37:13,344 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:37:20,356 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:37:54,202 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:38:32,433 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:38:48,733 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:39:08,302 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:39:20,505 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:39:34,719 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) 设置系统属性：mail.smtp.host = smtp.163.com
+2018-03-04 03:39:34,720 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) 准备获取邮件会话对象！
+2018-03-04 03:39:34,743 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) 准备创建MIME邮件对象！
+2018-03-04 03:39:34,789 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) 设置smtp身份认证：mail.smtp.auth = true
+2018-03-04 03:39:34,790 INFO  utils.EmailSender.setSubject(EmailSender.java:178) 设置邮件主题！
+2018-03-04 03:39:34,795 INFO  utils.EmailSender.setFrom(EmailSender.java:297) 设置发信人！
+2018-03-04 03:39:34,804 INFO  utils.EmailSender.sendOut(EmailSender.java:233) 正在发送邮件....
+2018-03-04 03:52:43,558 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 03:52:43,558 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 03:52:43,558 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 03:52:43,558 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 03:52:43,558 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 03:52:43,558 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 03:52:48,086 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:52:50,618 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:52:52,214 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:52:52,263 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:52:53,808 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:52:53,850 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:52:55,438 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:52:55,488 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:52:56,997 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 03:52:57,041 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:52:58,415 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:52:59,891 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 03:52:59,929 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:53:05,496 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:53:39,602 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:54:16,711 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:54:32,810 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:54:52,115 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:55:04,002 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 03:55:17,953 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) 设置系统属性：mail.smtp.host = smtp.163.com
+2018-03-04 03:55:17,963 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) 准备获取邮件会话对象！
+2018-03-04 03:55:17,973 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) 准备创建MIME邮件对象！
+2018-03-04 03:55:18,023 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) 设置smtp身份认证：mail.smtp.auth = true
+2018-03-04 03:55:18,023 INFO  utils.EmailSender.setSubject(EmailSender.java:178) 设置邮件主题！
+2018-03-04 03:55:18,033 INFO  utils.EmailSender.setFrom(EmailSender.java:297) 设置发信人！
+2018-03-04 03:55:18,053 INFO  utils.EmailSender.sendOut(EmailSender.java:233) 正在发送邮件....
+2018-03-04 04:02:24,277 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 04:02:24,287 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 04:02:24,287 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 04:02:24,287 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 04:02:24,287 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 04:02:24,287 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 04:02:29,050 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:02:32,392 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:02:34,013 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:02:34,058 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:02:35,561 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:02:35,602 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:02:37,287 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:02:37,344 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:02:38,750 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:02:38,785 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:02:40,133 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:02:41,432 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 04:02:41,470 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:02:46,668 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:03:20,835 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:04:00,046 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:04:16,330 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:04:35,072 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:04:46,929 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:04:57,311 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) 设置系统属性：mail.smtp.host = smtp.163.com
+2018-03-04 04:04:57,311 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) 准备获取邮件会话对象！
+2018-03-04 04:04:57,331 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) 准备创建MIME邮件对象！
+2018-03-04 04:04:57,371 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) 设置smtp身份认证：mail.smtp.auth = true
+2018-03-04 04:04:57,381 INFO  utils.EmailSender.setSubject(EmailSender.java:178) 设置邮件主题！
+2018-03-04 04:04:57,381 INFO  utils.EmailSender.setFrom(EmailSender.java:297) 设置发信人！
+2018-03-04 04:04:57,391 INFO  utils.EmailSender.sendOut(EmailSender.java:233) 正在发送邮件....
+2018-03-04 04:08:26,567 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 04:08:26,567 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 04:08:26,567 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 04:08:26,567 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 04:08:26,567 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 04:08:26,567 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 04:08:31,051 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:08:33,700 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:08:35,091 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:08:35,139 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:08:36,570 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:08:36,615 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:08:38,216 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:08:38,337 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:08:39,957 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:08:39,998 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:08:41,294 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:08:42,880 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 04:08:42,915 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:08:49,873 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:09:24,218 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:10:00,914 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:10:17,293 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:10:36,436 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:10:47,338 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:10:57,654 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) 设置系统属性：mail.smtp.host = smtp.163.com
+2018-03-04 04:10:57,654 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) 准备获取邮件会话对象！
+2018-03-04 04:10:57,674 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) 准备创建MIME邮件对象！
+2018-03-04 04:10:57,724 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) 设置smtp身份认证：mail.smtp.auth = true
+2018-03-04 04:10:57,724 INFO  utils.EmailSender.setSubject(EmailSender.java:178) 设置邮件主题！
+2018-03-04 04:10:57,734 INFO  utils.EmailSender.setFrom(EmailSender.java:297) 设置发信人！
+2018-03-04 04:10:57,744 INFO  utils.EmailSender.sendOut(EmailSender.java:233) 正在发送邮件....
+2018-03-04 04:15:04,354 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 04:15:04,364 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 04:15:04,364 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 04:15:04,364 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 04:15:04,364 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 04:15:04,364 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 04:15:08,887 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:15:11,456 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:15:12,834 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:15:12,882 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:15:14,314 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:15:14,364 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:15:15,763 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:15:15,815 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:15:17,599 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:15:17,639 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:15:19,037 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:15:20,337 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 04:15:20,378 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:15:26,365 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:16:00,334 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:16:37,098 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:16:53,882 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:17:14,250 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:17:24,946 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:17:35,320 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) 设置系统属性：mail.smtp.host = smtp.163.com
+2018-03-04 04:17:35,320 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) 准备获取邮件会话对象！
+2018-03-04 04:17:35,340 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) 准备创建MIME邮件对象！
+2018-03-04 04:17:35,380 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) 设置smtp身份认证：mail.smtp.auth = true
+2018-03-04 04:17:35,380 INFO  utils.EmailSender.setSubject(EmailSender.java:178) 设置邮件主题！
+2018-03-04 04:17:35,380 INFO  utils.EmailSender.setFrom(EmailSender.java:297) 设置发信人！
+2018-03-04 04:17:35,390 INFO  utils.EmailSender.sendOut(EmailSender.java:233) 正在发送邮件....
+2018-03-04 04:19:44,279 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 04:19:44,279 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 04:19:44,279 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 04:19:44,279 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 04:19:44,279 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 04:19:44,279 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 04:19:48,907 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:19:51,529 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:19:52,933 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:19:52,982 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:19:54,341 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:19:54,382 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:19:55,840 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:19:55,908 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:19:57,439 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:19:57,477 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:19:58,762 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:20:00,041 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 04:20:00,101 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:20:05,452 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:20:39,644 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:21:16,356 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:21:32,558 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:21:52,652 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:22:03,371 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:22:13,964 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) 设置系统属性：mail.smtp.host = smtp.163.com
+2018-03-04 04:22:13,964 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) 准备获取邮件会话对象！
+2018-03-04 04:22:13,994 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) 准备创建MIME邮件对象！
+2018-03-04 04:22:14,034 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) 设置smtp身份认证：mail.smtp.auth = true
+2018-03-04 04:22:14,034 INFO  utils.EmailSender.setSubject(EmailSender.java:178) 设置邮件主题！
+2018-03-04 04:22:14,044 INFO  utils.EmailSender.setFrom(EmailSender.java:297) 设置发信人！
+2018-03-04 04:22:14,054 INFO  utils.EmailSender.sendOut(EmailSender.java:233) 正在发送邮件....
+2018-03-04 04:35:57,825 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 04:35:57,825 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 04:35:57,825 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 04:35:57,825 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 04:35:57,825 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 04:35:57,825 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 04:36:03,658 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:36:06,207 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:36:07,526 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1��δ��������Ʒ������
+2018-03-04 04:36:07,574 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:36:08,909 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1��δ��������Ʒ������
+2018-03-04 04:36:08,950 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:36:10,398 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1��δ��������Ʒ������
+2018-03-04 04:36:10,466 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:36:12,038 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1��δ��������Ʒ������
+2018-03-04 04:36:12,096 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:36:13,435 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:36:14,723 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1��δ��������Ʒ������
+2018-03-04 04:36:14,767 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:36:21,074 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:36:54,945 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:37:16,531 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 04:37:16,541 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 04:37:16,541 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 04:37:16,541 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 04:37:16,541 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 04:37:16,541 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 04:37:21,458 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:37:24,911 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:37:27,267 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:37:27,341 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:37:29,682 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) 设置系统属性：mail.smtp.host = smtp.163.com
+2018-03-04 04:37:29,683 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) 准备获取邮件会话对象！
+2018-03-04 04:37:29,771 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) 准备创建MIME邮件对象！
+2018-03-04 04:37:29,834 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) 设置smtp身份认证：mail.smtp.auth = true
+2018-03-04 04:37:29,835 INFO  utils.EmailSender.setSubject(EmailSender.java:178) 设置邮件主题！
+2018-03-04 04:37:29,840 INFO  utils.EmailSender.setFrom(EmailSender.java:297) 设置发信人！
+2018-03-04 04:37:29,916 INFO  utils.EmailSender.sendOut(EmailSender.java:233) 正在发送邮件....
+2018-03-04 04:37:36,943 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:37:53,360 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:38:12,242 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:38:24,508 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:38:35,255 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) ����ϵͳ���ԣ�mail.smtp.host = smtp.163.com
+2018-03-04 04:38:35,255 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) ׼����ȡ�ʼ��Ự����
+2018-03-04 04:38:35,275 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) ׼������MIME�ʼ�����
+2018-03-04 04:38:35,325 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) ����smtp������֤��mail.smtp.auth = true
+2018-03-04 04:38:35,325 INFO  utils.EmailSender.setSubject(EmailSender.java:178) �����ʼ����⣡
+2018-03-04 04:38:35,335 INFO  utils.EmailSender.setFrom(EmailSender.java:297) ���÷����ˣ�
+2018-03-04 04:38:35,345 INFO  utils.EmailSender.sendOut(EmailSender.java:233) ���ڷ����ʼ�....
+2018-03-04 04:40:55,300 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 04:40:55,300 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 04:40:55,300 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 04:40:55,300 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 04:40:55,300 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 04:40:55,300 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 04:41:00,135 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:41:02,981 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:41:04,298 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:41:04,347 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:41:05,634 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:41:05,676 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:41:07,053 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:41:07,103 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:41:08,819 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:41:08,862 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:41:10,141 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:41:11,451 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 04:41:11,489 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:41:17,420 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:41:51,445 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:42:28,123 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:42:45,050 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:43:03,377 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:43:14,671 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:48:54,132 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 04:48:54,132 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 04:48:54,132 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 04:48:54,132 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 04:48:54,132 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 04:48:54,132 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 04:48:59,146 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:49:01,908 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:49:03,287 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:49:03,330 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:49:04,669 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:49:04,709 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:49:06,055 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:49:06,108 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:49:08,100 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:49:08,138 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:49:09,496 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:49:10,993 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 04:49:11,044 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:49:16,456 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:49:50,664 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:50:28,890 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:50:44,720 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:51:03,605 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:51:14,902 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:56:24,243 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 04:56:24,253 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 04:56:24,253 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 04:56:24,253 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 04:56:24,253 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 04:56:24,253 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 04:56:28,388 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:56:31,265 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:56:32,698 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:56:32,746 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:56:34,120 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:56:34,161 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:56:35,538 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:56:35,589 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:56:37,107 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 04:56:37,146 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:56:38,804 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:56:40,072 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 04:56:40,108 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:56:45,586 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:57:19,533 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:57:56,596 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:58:13,902 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:58:32,913 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 04:58:43,821 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:22:21,779 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) Sousuo -> set retry
+2018-03-04 14:22:21,809 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case02 -> set retry
+2018-03-04 14:22:21,809 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case03 -> set retry
+2018-03-04 14:22:21,809 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case04 -> set retry
+2018-03-04 14:22:21,809 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case5 -> set retry
+2018-03-04 14:22:21,809 INFO  listener.ExecutionListener.onStart(ExecutionListener.java:58) case06 -> set retry
+2018-03-04 14:22:28,625 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:22:32,185 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:22:33,709 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 14:22:33,802 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:22:35,256 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 14:22:35,294 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:22:36,713 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 14:22:36,767 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:22:38,201 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：联想
+2018-03-04 14:22:38,237 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:22:39,539 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:22:40,922 ERROR base.CheckPoint.onAssertFailure(CheckPoint.java:51) Case1：未搜索到产品：锤子
+2018-03-04 14:22:40,960 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:22:47,790 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:23:22,132 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:23:59,635 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:24:17,498 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:24:36,523 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:24:47,865 INFO  listener.ExecutionListener.onTestStart(ExecutionListener.java:86) TestStart!
+2018-03-04 14:24:58,327 INFO  utils.EmailSender.setSmtpHost(EmailSender.java:123) 设置系统属性：mail.smtp.host = smtp.163.com
+2018-03-04 14:24:58,327 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:137) 准备获取邮件会话对象！
+2018-03-04 14:24:58,347 INFO  utils.EmailSender.createMimeMessage(EmailSender.java:145) 准备创建MIME邮件对象！
+2018-03-04 14:24:58,387 INFO  utils.EmailSender.setNeedAuth(EmailSender.java:161) 设置smtp身份认证：mail.smtp.auth = true
+2018-03-04 14:24:58,387 INFO  utils.EmailSender.setSubject(EmailSender.java:178) 设置邮件主题！
+2018-03-04 14:24:58,397 INFO  utils.EmailSender.setFrom(EmailSender.java:297) 设置发信人！
+2018-03-04 14:24:58,457 INFO  utils.EmailSender.sendOut(EmailSender.java:233) 正在发送邮件....

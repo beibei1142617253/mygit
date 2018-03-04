@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [ECSHOP-线上功能监控]" parallel="tests">
+  <parameter name="browserType" value="firefox"/>
+  <listeners>
+    <listener class-name="listener.ExecutionListener"/>
+    <listener class-name="listener.Reporter"/>
+  </listeners>
+  <test name="搜索诺基亚、投诉、下订单、精品推荐区(failed)" parallel="tests">
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="cases.Case2">
+        <methods>
+          <include name="afterCase"/>
+          <include name="afterSuite"/>
+          <include name="beforeCase"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- cases.Case2 -->
+      <class name="cases.Case5">
+        <methods>
+          <include name="afterCase"/>
+          <include name="beforeCase"/>
+        </methods>
+      </class> <!-- cases.Case5 -->
+      <class name="cases.Case6">
+        <methods>
+          <include name="afterCase"/>
+          <include name="beforeCase"/>
+        </methods>
+      </class> <!-- cases.Case6 -->
+      <class name="cases.Case1">
+        <methods>
+          <include name="afterCase"/>
+          <include name="Sousuo" invocation-numbers="1 1 1 1 3"/>
+          <include name="beforeCase"/>
+        </methods>
+      </class> <!-- cases.Case1 -->
+      <class name="cases.Case4">
+        <methods>
+          <include name="afterCase"/>
+          <include name="beforeCase"/>
+        </methods>
+      </class> <!-- cases.Case4 -->
+      <class name="cases.Case3">
+        <methods>
+          <include name="afterCase"/>
+          <include name="beforeCase"/>
+        </methods>
+      </class> <!-- cases.Case3 -->
+    </classes>
+  </test> <!-- 搜索诺基亚、投诉、下订单、精品推荐区(failed) -->
+</suite> <!-- Failed suite [ECSHOP-线上功能监控] -->

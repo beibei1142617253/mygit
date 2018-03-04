@@ -1,0 +1,2729 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               Test case
+               
+               <b>搜索诺基亚、投诉、下订单、精品推荐区</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">1</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">9</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">10</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">90%</div>
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="cases.Case1_Sousuo_byStatus_failed_FAIL1_row" class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_Sousuo_byStatus_failed_FAIL1_details')">Sousuo({手机类型=3, 手机品牌=联想, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop})</a>
+               </td>
+               <td nowrap="true">04:56:32</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_Sousuo_byStatus_failed_FAIL1_exception')">java.lang.AssertionError: 
+                     expected [0] but found [2]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_Sousuo_byStatus_failed_FAIL1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>Sousuo
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>Sousuo(java.util.Map)[pri:0, instance:cases.Case1@b1cc93]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {手机类型=3, 手机品牌=联想, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:32
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:34
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_Sousuo_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: expected [0] but found [2]
+                        	at org.testng.Assert.fail(Assert.java:94)
+                        	at org.testng.Assert.failNotEquals(Assert.java:494)
+                        	at org.testng.Assert.assertEquals(Assert.java:123)
+                        	at org.testng.Assert.assertEquals(Assert.java:370)
+                        	at org.testng.Assert.assertEquals(Assert.java:380)
+                        	at base.CheckPoint.result(CheckPoint.java:33)
+                        	at cases.Case1.Sousuo(Case1.java:74)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+                        	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+                        	at org.testng.TestRunner.run(TestRunner.java:617)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+                        	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+                        	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+                        	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+                        	at java.util.concurrent.FutureTask.run(Unknown Source)
+                        	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+                        	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+                        	at java.lang.Thread.run(Unknown Source)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="cases.Case2_beforeSuite_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case2_beforeSuite_byStatus_passed_PASS1_details')">beforeSuite()</a>
+               </td>
+               <td nowrap="true">04:56:23</td>
+               <td nowrap="true" align="right">230 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case2_beforeSuite_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeSuite
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeSuite()[pri:0, instance:cases.Case2@ec4505]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:23
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:24
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>230 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case2_beforeCase_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case2_beforeCase_byStatus_passed_PASS2_details')">beforeCase()</a>
+               </td>
+               <td nowrap="true">04:56:42</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case2_beforeCase_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeCase()[pri:0, instance:cases.Case2@ec4505]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:42
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:45
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case2_case02_byStatus_passed_PASS3_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case2_case02_byStatus_passed_PASS3_details')">case02({邮箱=123@163.com, 标题=我要投诉, 留言内容=上午上课桌面老是断，请速解决！, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/})</a>
+               </td>
+               <td nowrap="true">04:56:45</td>
+               <td nowrap="true" align="right">34s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case2_case02_byStatus_passed_PASS3_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>case02
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>case02(java.util.Map)[pri:0, instance:cases.Case2@ec4505]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {邮箱=123@163.com, 标题=我要投诉, 留言内容=上午上课桌面老是断，请速解决！, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:45
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:57:19
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>34s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case2_case02_byStatus_passed_PASS4_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case2_case02_byStatus_passed_PASS4_details')">case02({邮箱=111111@qq.com, 标题=我要投诉888888, 留言内容=老师太帅了，请速解决！, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/})</a>
+               </td>
+               <td nowrap="true">04:57:19</td>
+               <td nowrap="true" align="right">33s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case2_case02_byStatus_passed_PASS4_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>case02
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>case02(java.util.Map)[pri:0, instance:cases.Case2@ec4505]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {邮箱=111111@qq.com, 标题=我要投诉888888, 留言内容=老师太帅了，请速解决！, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:57:19
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:57:52
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>33s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case2_afterCase_byStatus_passed_PASS5_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case2_afterCase_byStatus_passed_PASS5_details')">afterCase()</a>
+               </td>
+               <td nowrap="true">04:57:52</td>
+               <td nowrap="true" align="right">700 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case2_afterCase_byStatus_passed_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterCase()[pri:0, instance:cases.Case2@ec4505]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:57:52
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:57:53
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>700 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case2_afterSuite_byStatus_passed_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case2_afterSuite_byStatus_passed_PASS6_details')">afterSuite()</a>
+               </td>
+               <td nowrap="true">04:58:54</td>
+               <td nowrap="true" align="right">60 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case2_afterSuite_byStatus_passed_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterSuite
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterSuite()[pri:0, instance:cases.Case2@ec4505]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:54
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:54
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>60 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case1_beforeCase_byStatus_passed_PASS7_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_beforeCase_byStatus_passed_PASS7_details')">beforeCase()</a>
+               </td>
+               <td nowrap="true">04:56:24</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_beforeCase_byStatus_passed_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeCase()[pri:0, instance:cases.Case1@b1cc93]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:24
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:28
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case1_Sousuo_byStatus_passed_PASS8_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_Sousuo_byStatus_passed_PASS8_details')">Sousuo({手机类型=0, 手机品牌=飞利浦, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop})</a>
+               </td>
+               <td nowrap="true">04:56:28</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_Sousuo_byStatus_passed_PASS8_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>Sousuo
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>Sousuo(java.util.Map)[pri:0, instance:cases.Case1@b1cc93]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {手机类型=0, 手机品牌=飞利浦, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:28
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:30
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case1_Sousuo_byStatus_passed_PASS9_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_Sousuo_byStatus_passed_PASS9_details')">Sousuo({手机类型=3, 手机品牌=三星, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop})</a>
+               </td>
+               <td nowrap="true">04:56:37</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_Sousuo_byStatus_passed_PASS9_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>Sousuo
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>Sousuo(java.util.Map)[pri:0, instance:cases.Case1@b1cc93]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {手机类型=3, 手机品牌=三星, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:37
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:38
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case1_Sousuo_byStatus_passed_PASS10_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_Sousuo_byStatus_passed_PASS10_details')">Sousuo({手机类型=3, 手机品牌=诺基亚, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop})</a>
+               </td>
+               <td nowrap="true">04:56:40</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_Sousuo_byStatus_passed_PASS10_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>Sousuo
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>Sousuo(java.util.Map)[pri:0, instance:cases.Case1@b1cc93]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {手机类型=3, 手机品牌=诺基亚, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:40
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:41
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case1_afterCase_byStatus_passed_PASS11_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_afterCase_byStatus_passed_PASS11_details')">afterCase()</a>
+               </td>
+               <td nowrap="true">04:56:41</td>
+               <td nowrap="true" align="right">871 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_afterCase_byStatus_passed_PASS11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterCase()[pri:0, instance:cases.Case1@b1cc93]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:41
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:42
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>871 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case6_beforeCase_byStatus_passed_PASS12_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case6_beforeCase_byStatus_passed_PASS12_details')">beforeCase()</a>
+               </td>
+               <td nowrap="true">04:58:40</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case6_beforeCase_byStatus_passed_PASS12_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeCase()[pri:0, instance:cases.Case6@13b5d16]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:40
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:43
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case6_case06_byStatus_passed_PASS13_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case6_case06_byStatus_passed_PASS13_details')">case06()</a>
+               </td>
+               <td nowrap="true">04:58:43</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case6_case06_byStatus_passed_PASS13_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>case06
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>case06()[pri:0, instance:cases.Case6@13b5d16]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:43
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:53
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case6_afterCase_byStatus_passed_PASS14_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case6_afterCase_byStatus_passed_PASS14_details')">afterCase()</a>
+               </td>
+               <td nowrap="true">04:58:53</td>
+               <td nowrap="true" align="right">691 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case6_afterCase_byStatus_passed_PASS14_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterCase()[pri:0, instance:cases.Case6@13b5d16]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:53
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:54
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>691 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case5_beforeCase_byStatus_passed_PASS15_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case5_beforeCase_byStatus_passed_PASS15_details')">beforeCase()</a>
+               </td>
+               <td nowrap="true">04:58:29</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case5_beforeCase_byStatus_passed_PASS15_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeCase()[pri:0, instance:cases.Case5@1938003]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:29
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:32
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case5_case5_byStatus_passed_PASS16_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case5_case5_byStatus_passed_PASS16_details')">case5({用户名=bulanni, 密码=123456, 登录地址=http://www.huicewang.com/ecshop/user.php, 主页地址=http://www.huicewang.com/ecshop/})</a>
+               </td>
+               <td nowrap="true">04:58:32</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case5_case5_byStatus_passed_PASS16_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>case5
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>case5(java.util.Map)[pri:0, instance:cases.Case5@1938003]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {用户名=bulanni, 密码=123456, 登录地址=http://www.huicewang.com/ecshop/user.php, 主页地址=http://www.huicewang.com/ecshop/}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:32
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:39
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case5_afterCase_byStatus_passed_PASS17_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case5_afterCase_byStatus_passed_PASS17_details')">afterCase()</a>
+               </td>
+               <td nowrap="true">04:58:39</td>
+               <td nowrap="true" align="right">824 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case5_afterCase_byStatus_passed_PASS17_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterCase()[pri:0, instance:cases.Case5@1938003]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:39
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:40
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>824 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case4_beforeCase_byStatus_passed_PASS18_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case4_beforeCase_byStatus_passed_PASS18_details')">beforeCase()</a>
+               </td>
+               <td nowrap="true">04:58:10</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case4_beforeCase_byStatus_passed_PASS18_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeCase()[pri:0, instance:cases.Case4@646153]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:10
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:13
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case4_case04_byStatus_passed_PASS19_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case4_case04_byStatus_passed_PASS19_details')">case04({用户名=shan2016, 密码=shan1111, 手机类型=3, 手机品牌=三星, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/})</a>
+               </td>
+               <td nowrap="true">04:58:13</td>
+               <td nowrap="true" align="right">15s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case4_case04_byStatus_passed_PASS19_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>case04
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>case04(java.util.Map)[pri:0, instance:cases.Case4@646153]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {用户名=shan2016, 密码=shan1111, 手机类型=3, 手机品牌=三星, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:13
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:28
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>15s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case4_afterCase_byStatus_passed_PASS20_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case4_afterCase_byStatus_passed_PASS20_details')">afterCase()</a>
+               </td>
+               <td nowrap="true">04:58:28</td>
+               <td nowrap="true" align="right">690 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case4_afterCase_byStatus_passed_PASS20_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterCase()[pri:0, instance:cases.Case4@646153]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:28
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:29
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>690 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case3_beforeCase_byStatus_passed_PASS21_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case3_beforeCase_byStatus_passed_PASS21_details')">beforeCase()</a>
+               </td>
+               <td nowrap="true">04:57:53</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case3_beforeCase_byStatus_passed_PASS21_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeCase()[pri:0, instance:cases.Case3@1507a04]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:57:53
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:57:56
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case3_case03_byStatus_passed_PASS22_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case3_case03_byStatus_passed_PASS22_details')">case03({用户名=bulanni, 密码=123456, 手机类型=3, 手机品牌=三星, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/})</a>
+               </td>
+               <td nowrap="true">04:57:56</td>
+               <td nowrap="true" align="right">13s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case3_case03_byStatus_passed_PASS22_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>case03
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>case03(java.util.Map)[pri:0, instance:cases.Case3@1507a04]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {用户名=bulanni, 密码=123456, 手机类型=3, 手机品牌=三星, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:57:56
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:09
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>13s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case3_afterCase_byStatus_passed_PASS23_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case3_afterCase_byStatus_passed_PASS23_details')">afterCase()</a>
+               </td>
+               <td nowrap="true">04:58:09</td>
+               <td nowrap="true" align="right">836 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case3_afterCase_byStatus_passed_PASS23_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterCase()[pri:0, instance:cases.Case3@1507a04]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:09
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:10
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>836 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">cases.Case1</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="cases.Case1_beforeCase_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_beforeCase_byClass_PASS1_details')">beforeCase()</a>
+               </td>
+               <td nowrap="true">04:56:24</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_beforeCase_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeCase()[pri:0, instance:cases.Case1@b1cc93]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:24
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:28
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case1_Sousuo_byClass_PASS2_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_Sousuo_byClass_PASS2_details')">Sousuo({手机类型=0, 手机品牌=飞利浦, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop})</a>
+               </td>
+               <td nowrap="true">04:56:28</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_Sousuo_byClass_PASS2_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>Sousuo
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>Sousuo(java.util.Map)[pri:0, instance:cases.Case1@b1cc93]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {手机类型=0, 手机品牌=飞利浦, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:28
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:30
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case1_Sousuo_byClass_FAIL3_row" class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_Sousuo_byClass_FAIL3_details')">Sousuo({手机类型=3, 手机品牌=联想, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop})</a>
+               </td>
+               <td nowrap="true">04:56:32</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_Sousuo_byClass_FAIL3_exception')">java.lang.AssertionError: 
+                     expected [0] but found [2]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_Sousuo_byClass_FAIL3_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>Sousuo
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>Sousuo(java.util.Map)[pri:0, instance:cases.Case1@b1cc93]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {手机类型=3, 手机品牌=联想, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:32
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:34
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_Sousuo_byClass_FAIL3_exception" class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: expected [0] but found [2]
+                        	at org.testng.Assert.fail(Assert.java:94)
+                        	at org.testng.Assert.failNotEquals(Assert.java:494)
+                        	at org.testng.Assert.assertEquals(Assert.java:123)
+                        	at org.testng.Assert.assertEquals(Assert.java:370)
+                        	at org.testng.Assert.assertEquals(Assert.java:380)
+                        	at base.CheckPoint.result(CheckPoint.java:33)
+                        	at cases.Case1.Sousuo(Case1.java:74)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+                        	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+                        	at org.testng.TestRunner.run(TestRunner.java:617)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+                        	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+                        	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+                        	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+                        	at java.util.concurrent.FutureTask.run(Unknown Source)
+                        	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+                        	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+                        	at java.lang.Thread.run(Unknown Source)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="cases.Case1_Sousuo_byClass_PASS4_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_Sousuo_byClass_PASS4_details')">Sousuo({手机类型=3, 手机品牌=三星, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop})</a>
+               </td>
+               <td nowrap="true">04:56:37</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_Sousuo_byClass_PASS4_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>Sousuo
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>Sousuo(java.util.Map)[pri:0, instance:cases.Case1@b1cc93]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {手机类型=3, 手机品牌=三星, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:37
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:38
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case1_Sousuo_byClass_PASS5_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_Sousuo_byClass_PASS5_details')">Sousuo({手机类型=3, 手机品牌=诺基亚, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop})</a>
+               </td>
+               <td nowrap="true">04:56:40</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_Sousuo_byClass_PASS5_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>Sousuo
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>Sousuo(java.util.Map)[pri:0, instance:cases.Case1@b1cc93]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {手机类型=3, 手机品牌=诺基亚, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:40
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:41
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case1_afterCase_byClass_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case1_afterCase_byClass_PASS6_details')">afterCase()</a>
+               </td>
+               <td nowrap="true">04:56:41</td>
+               <td nowrap="true" align="right">871 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case1_afterCase_byClass_PASS6_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterCase()[pri:0, instance:cases.Case1@b1cc93]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:41
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:42
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>871 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">cases.Case2</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="cases.Case2_beforeSuite_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case2_beforeSuite_byClass_PASS1_details')">beforeSuite()</a>
+               </td>
+               <td nowrap="true">04:56:23</td>
+               <td nowrap="true" align="right">230 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case2_beforeSuite_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeSuite
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeSuite()[pri:0, instance:cases.Case2@ec4505]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:23
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:24
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>230 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case2_beforeCase_byClass_PASS2_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case2_beforeCase_byClass_PASS2_details')">beforeCase()</a>
+               </td>
+               <td nowrap="true">04:56:42</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case2_beforeCase_byClass_PASS2_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeCase()[pri:0, instance:cases.Case2@ec4505]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:42
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:56:45
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case2_case02_byClass_PASS3_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case2_case02_byClass_PASS3_details')">case02({邮箱=123@163.com, 标题=我要投诉, 留言内容=上午上课桌面老是断，请速解决！, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/})</a>
+               </td>
+               <td nowrap="true">04:56:45</td>
+               <td nowrap="true" align="right">34s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case2_case02_byClass_PASS3_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>case02
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>case02(java.util.Map)[pri:0, instance:cases.Case2@ec4505]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {邮箱=123@163.com, 标题=我要投诉, 留言内容=上午上课桌面老是断，请速解决！, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:56:45
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:57:19
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>34s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case2_case02_byClass_PASS4_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case2_case02_byClass_PASS4_details')">case02({邮箱=111111@qq.com, 标题=我要投诉888888, 留言内容=老师太帅了，请速解决！, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/})</a>
+               </td>
+               <td nowrap="true">04:57:19</td>
+               <td nowrap="true" align="right">33s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case2_case02_byClass_PASS4_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>case02
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>case02(java.util.Map)[pri:0, instance:cases.Case2@ec4505]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {邮箱=111111@qq.com, 标题=我要投诉888888, 留言内容=老师太帅了，请速解决！, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:57:19
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:57:52
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>33s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case2_afterCase_byClass_PASS5_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case2_afterCase_byClass_PASS5_details')">afterCase()</a>
+               </td>
+               <td nowrap="true">04:57:52</td>
+               <td nowrap="true" align="right">700 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case2_afterCase_byClass_PASS5_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterCase()[pri:0, instance:cases.Case2@ec4505]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:57:52
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:57:53
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>700 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case2_afterSuite_byClass_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case2_afterSuite_byClass_PASS6_details')">afterSuite()</a>
+               </td>
+               <td nowrap="true">04:58:54</td>
+               <td nowrap="true" align="right">60 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case2_afterSuite_byClass_PASS6_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterSuite
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterSuite()[pri:0, instance:cases.Case2@ec4505]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:54
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:54
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>60 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">cases.Case3</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="cases.Case3_beforeCase_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case3_beforeCase_byClass_PASS1_details')">beforeCase()</a>
+               </td>
+               <td nowrap="true">04:57:53</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case3_beforeCase_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeCase()[pri:0, instance:cases.Case3@1507a04]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:57:53
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:57:56
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case3_case03_byClass_PASS2_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case3_case03_byClass_PASS2_details')">case03({用户名=bulanni, 密码=123456, 手机类型=3, 手机品牌=三星, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/})</a>
+               </td>
+               <td nowrap="true">04:57:56</td>
+               <td nowrap="true" align="right">13s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case3_case03_byClass_PASS2_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>case03
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>case03(java.util.Map)[pri:0, instance:cases.Case3@1507a04]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {用户名=bulanni, 密码=123456, 手机类型=3, 手机品牌=三星, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:57:56
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:09
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>13s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case3_afterCase_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case3_afterCase_byClass_PASS3_details')">afterCase()</a>
+               </td>
+               <td nowrap="true">04:58:09</td>
+               <td nowrap="true" align="right">836 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case3_afterCase_byClass_PASS3_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterCase()[pri:0, instance:cases.Case3@1507a04]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:09
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:10
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>836 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">cases.Case4</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="cases.Case4_beforeCase_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case4_beforeCase_byClass_PASS1_details')">beforeCase()</a>
+               </td>
+               <td nowrap="true">04:58:10</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case4_beforeCase_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeCase()[pri:0, instance:cases.Case4@646153]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:10
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:13
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case4_case04_byClass_PASS2_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case4_case04_byClass_PASS2_details')">case04({用户名=shan2016, 密码=shan1111, 手机类型=3, 手机品牌=三星, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/})</a>
+               </td>
+               <td nowrap="true">04:58:13</td>
+               <td nowrap="true" align="right">15s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case4_case04_byClass_PASS2_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>case04
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>case04(java.util.Map)[pri:0, instance:cases.Case4@646153]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {用户名=shan2016, 密码=shan1111, 手机类型=3, 手机品牌=三星, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:13
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:28
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>15s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case4_afterCase_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case4_afterCase_byClass_PASS3_details')">afterCase()</a>
+               </td>
+               <td nowrap="true">04:58:28</td>
+               <td nowrap="true" align="right">690 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case4_afterCase_byClass_PASS3_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterCase()[pri:0, instance:cases.Case4@646153]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:28
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:29
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>690 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">cases.Case5</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="cases.Case5_beforeCase_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case5_beforeCase_byClass_PASS1_details')">beforeCase()</a>
+               </td>
+               <td nowrap="true">04:58:29</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case5_beforeCase_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeCase()[pri:0, instance:cases.Case5@1938003]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:29
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:32
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case5_case5_byClass_PASS2_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case5_case5_byClass_PASS2_details')">case5({用户名=bulanni, 密码=123456, 登录地址=http://www.huicewang.com/ecshop/user.php, 主页地址=http://www.huicewang.com/ecshop/})</a>
+               </td>
+               <td nowrap="true">04:58:32</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case5_case5_byClass_PASS2_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>case5
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>case5(java.util.Map)[pri:0, instance:cases.Case5@1938003]
+                     </div>
+                     <div>
+                        <b>Parameters:
+                           
+                        </b>
+                        
+                        {用户名=bulanni, 密码=123456, 登录地址=http://www.huicewang.com/ecshop/user.php, 主页地址=http://www.huicewang.com/ecshop/}
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:32
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:39
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case5_afterCase_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case5_afterCase_byClass_PASS3_details')">afterCase()</a>
+               </td>
+               <td nowrap="true">04:58:39</td>
+               <td nowrap="true" align="right">824 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case5_afterCase_byClass_PASS3_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterCase()[pri:0, instance:cases.Case5@1938003]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:39
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:40
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>824 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">cases.Case6</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="cases.Case6_beforeCase_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case6_beforeCase_byClass_PASS1_details')">beforeCase()</a>
+               </td>
+               <td nowrap="true">04:58:40</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case6_beforeCase_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>beforeCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>beforeCase()[pri:0, instance:cases.Case6@13b5d16]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:40
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:43
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case6_case06_byClass_PASS2_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case6_case06_byClass_PASS2_details')">case06()</a>
+               </td>
+               <td nowrap="true">04:58:43</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case6_case06_byClass_PASS2_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>case06
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>case06()[pri:0, instance:cases.Case6@13b5d16]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:43
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:53
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="cases.Case6_afterCase_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('cases.Case6_afterCase_byClass_PASS3_details')">afterCase()</a>
+               </td>
+               <td nowrap="true">04:58:53</td>
+               <td nowrap="true" align="right">691 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4"
+                   style="padding: 0; background-color: white; border-style: none; height: 0px;">
+                  <div id="cases.Case6_afterCase_byClass_PASS3_details" class="testMethodDetails">
+                     <div>
+                        <b>Name:
+                           
+                        </b>afterCase
+                     </div>
+                     <div>
+                        <b>Signature:
+                           
+                        </b>afterCase()[pri:0, instance:cases.Case6@13b5d16]
+                     </div>
+                     <div>
+                        <b>Start time:
+                           
+                        </b>04:58:53
+                     </div>
+                     <div>
+                        <b>End time:
+                           
+                        </b>04:58:54
+                     </div>
+                     <div>
+                        <b>Duration:
+                           
+                        </b>691 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>

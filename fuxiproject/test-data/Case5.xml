@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+
+	<common>
+		<登录地址>http://www.huicewang.com/ecshop/user.php</登录地址>
+	</common>
+
+	<case5>
+		<用户名>bulanni</用户名>
+		<密码>123456</密码>
+	</case5>
+
+</data>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="10" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[Case1：搜索到产品：飞利浦]]>
+    </line>
+    <line>
+      <![CDATA[Case1：未搜索到产品：联想]]>
+    </line>
+    <line>
+      <![CDATA[Case1：未搜索到产品：联想]]>
+    </line>
+    <line>
+      <![CDATA[Case1：未搜索到产品：联想]]>
+    </line>
+    <line>
+      <![CDATA[Case1：未搜索到产品：联想]]>
+    </line>
+    <line>
+      <![CDATA[Case1：搜索到产品：三星]]>
+    </line>
+    <line>
+      <![CDATA[Case1：未搜索到产品：锤子]]>
+    </line>
+    <line>
+      <![CDATA[Case1：搜索到产品：诺基亚]]>
+    </line>
+    <line>
+      <![CDATA[Case2：发表留言功能正常]]>
+    </line>
+    <line>
+      <![CDATA[Case2：发表留言功能正常]]>
+    </line>
+    <line>
+      <![CDATA[Case3：下单成功，用户中心已生成订单号:2018030487669]]>
+    </line>
+    <line>
+      <![CDATA[Case4：首页精品推荐区域的所有产品价格正常！]]>
+    </line>
+    <line>
+      <![CDATA[Case5：登录功能正常]]>
+    </line>
+    <line>
+      <![CDATA[Case6：首页精品推荐区域的所有产品图片链接正常]]>
+    </line>
+  </reporter-output>
+  <suite name="ECSHOP-线上功能监控" duration-ms="149965" started-at="2018-03-03T20:56:24Z" finished-at="2018-03-03T20:58:54Z">
+    <groups>
+    </groups>
+    <test name="搜索诺基亚、投诉、下订单、精品推荐区" duration-ms="149965" started-at="2018-03-03T20:56:24Z" finished-at="2018-03-03T20:58:54Z">
+      <class name="cases.Case2">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:cases.Case2@ec4505]" name="beforeSuite" is-config="true" duration-ms="230" started-at="2018-03-04T04:56:23Z" finished-at="2018-03-04T04:56:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeCase()[pri:0, instance:cases.Case2@ec4505]" name="beforeCase" is-config="true" duration-ms="3284" started-at="2018-03-04T04:56:42Z" finished-at="2018-03-04T04:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCase -->
+        <test-method status="PASS" signature="case02(java.util.Map)[pri:0, instance:cases.Case2@ec4505]" name="case02" duration-ms="33867" started-at="2018-03-04T04:56:45Z" data-provider="getData" finished-at="2018-03-04T04:57:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{邮箱=123@163.com, 标题=我要投诉, 留言内容=上午上课桌面老是断，请速解决！, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Case2：发表留言功能正常]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case02 -->
+        <test-method status="PASS" signature="case02(java.util.Map)[pri:0, instance:cases.Case2@ec4505]" name="case02" duration-ms="32960" started-at="2018-03-04T04:57:19Z" data-provider="getData" finished-at="2018-03-04T04:57:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{邮箱=111111@qq.com, 标题=我要投诉888888, 留言内容=老师太帅了，请速解决！, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Case2：发表留言功能正常]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case02 -->
+        <test-method status="PASS" signature="afterCase()[pri:0, instance:cases.Case2@ec4505]" name="afterCase" is-config="true" duration-ms="700" started-at="2018-03-04T04:57:52Z" finished-at="2018-03-04T04:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterCase -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:cases.Case2@ec4505]" name="afterSuite" is-config="true" duration-ms="60" started-at="2018-03-04T04:58:54Z" finished-at="2018-03-04T04:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- cases.Case2 -->
+      <class name="cases.Case1">
+        <test-method status="PASS" signature="beforeCase()[pri:0, instance:cases.Case1@b1cc93]" name="beforeCase" is-config="true" duration-ms="4122" started-at="2018-03-04T04:56:24Z" finished-at="2018-03-04T04:56:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCase -->
+        <test-method status="PASS" signature="Sousuo(java.util.Map)[pri:0, instance:cases.Case1@b1cc93]" name="Sousuo" duration-ms="2552" started-at="2018-03-04T04:56:28Z" data-provider="getDataExcel" finished-at="2018-03-04T04:56:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{手机类型=0, 手机品牌=飞利浦, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Case1：搜索到产品：飞利浦]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sousuo -->
+        <test-method status="FAIL" signature="Sousuo(java.util.Map)[pri:0, instance:cases.Case1@b1cc93]" name="Sousuo" duration-ms="1374" started-at="2018-03-04T04:56:32Z" data-provider="getDataExcel" finished-at="2018-03-04T04:56:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{手机类型=3, 手机品牌=联想, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0] but found [2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0] but found [2]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at base.CheckPoint.result(CheckPoint.java:33)
+	at cases.Case1.Sousuo(Case1.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Case1：未搜索到产品：联想]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sousuo -->
+        <test-method status="PASS" signature="Sousuo(java.util.Map)[pri:0, instance:cases.Case1@b1cc93]" name="Sousuo" duration-ms="1563" started-at="2018-03-04T04:56:37Z" data-provider="getDataExcel" finished-at="2018-03-04T04:56:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{手机类型=3, 手机品牌=三星, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Case1：搜索到产品：三星]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sousuo -->
+        <test-method status="PASS" signature="Sousuo(java.util.Map)[pri:0, instance:cases.Case1@b1cc93]" name="Sousuo" duration-ms="1252" started-at="2018-03-04T04:56:40Z" data-provider="getDataExcel" finished-at="2018-03-04T04:56:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{手机类型=3, 手机品牌=诺基亚, BaseUrl=http://www.huicewang.com, HomeUrl=/ecshop}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Case1：搜索到产品：诺基亚]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sousuo -->
+        <test-method status="PASS" signature="afterCase()[pri:0, instance:cases.Case1@b1cc93]" name="afterCase" is-config="true" duration-ms="871" started-at="2018-03-04T04:56:41Z" finished-at="2018-03-04T04:56:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterCase -->
+      </class> <!-- cases.Case1 -->
+      <class name="cases.Case6">
+        <test-method status="PASS" signature="beforeCase()[pri:0, instance:cases.Case6@13b5d16]" name="beforeCase" is-config="true" duration-ms="3031" started-at="2018-03-04T04:58:40Z" finished-at="2018-03-04T04:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCase -->
+        <test-method status="PASS" signature="case06()[pri:0, instance:cases.Case6@13b5d16]" name="case06" duration-ms="9537" started-at="2018-03-04T04:58:43Z" finished-at="2018-03-04T04:58:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Case6：首页精品推荐区域的所有产品图片链接正常]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case06 -->
+        <test-method status="PASS" signature="afterCase()[pri:0, instance:cases.Case6@13b5d16]" name="afterCase" is-config="true" duration-ms="691" started-at="2018-03-04T04:58:53Z" finished-at="2018-03-04T04:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterCase -->
+      </class> <!-- cases.Case6 -->
+      <class name="cases.Case5">
+        <test-method status="PASS" signature="beforeCase()[pri:0, instance:cases.Case5@1938003]" name="beforeCase" is-config="true" duration-ms="3764" started-at="2018-03-04T04:58:29Z" finished-at="2018-03-04T04:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCase -->
+        <test-method status="PASS" signature="case5(java.util.Map)[pri:0, instance:cases.Case5@1938003]" name="case5" duration-ms="7014" started-at="2018-03-04T04:58:32Z" data-provider="getData" finished-at="2018-03-04T04:58:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{用户名=bulanni, 密码=123456, 登录地址=http://www.huicewang.com/ecshop/user.php, 主页地址=http://www.huicewang.com/ecshop/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Case5：登录功能正常]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case5 -->
+        <test-method status="PASS" signature="afterCase()[pri:0, instance:cases.Case5@1938003]" name="afterCase" is-config="true" duration-ms="824" started-at="2018-03-04T04:58:39Z" finished-at="2018-03-04T04:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterCase -->
+      </class> <!-- cases.Case5 -->
+      <class name="cases.Case4">
+        <test-method status="PASS" signature="beforeCase()[pri:0, instance:cases.Case4@646153]" name="beforeCase" is-config="true" duration-ms="3145" started-at="2018-03-04T04:58:10Z" finished-at="2018-03-04T04:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCase -->
+        <test-method status="PASS" signature="case04(java.util.Map)[pri:0, instance:cases.Case4@646153]" name="case04" duration-ms="14511" started-at="2018-03-04T04:58:13Z" data-provider="getData" finished-at="2018-03-04T04:58:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{用户名=shan2016, 密码=shan1111, 手机类型=3, 手机品牌=三星, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Case4：首页精品推荐区域的所有产品价格正常！]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case04 -->
+        <test-method status="PASS" signature="afterCase()[pri:0, instance:cases.Case4@646153]" name="afterCase" is-config="true" duration-ms="690" started-at="2018-03-04T04:58:28Z" finished-at="2018-03-04T04:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterCase -->
+      </class> <!-- cases.Case4 -->
+      <class name="cases.Case3">
+        <test-method status="PASS" signature="beforeCase()[pri:0, instance:cases.Case3@1507a04]" name="beforeCase" is-config="true" duration-ms="3300" started-at="2018-03-04T04:57:53Z" finished-at="2018-03-04T04:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCase -->
+        <test-method status="PASS" signature="case03(java.util.Map)[pri:0, instance:cases.Case3@1507a04]" name="case03" duration-ms="13289" started-at="2018-03-04T04:57:56Z" data-provider="getData" finished-at="2018-03-04T04:58:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{用户名=bulanni, 密码=123456, 手机类型=3, 手机品牌=三星, 首页=http://www.huicewang.com/ecshop/, 主页地址=http://www.huicewang.com/ecshop/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Case3：下单成功，用户中心已生成订单号:2018030487669]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- case03 -->
+        <test-method status="PASS" signature="afterCase()[pri:0, instance:cases.Case3@1507a04]" name="afterCase" is-config="true" duration-ms="836" started-at="2018-03-04T04:58:09Z" finished-at="2018-03-04T04:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterCase -->
+      </class> <!-- cases.Case3 -->
+    </test> <!-- 搜索诺基亚、投诉、下订单、精品推荐区 -->
+  </suite> <!-- ECSHOP-线上功能监控 -->
+</testng-results>
